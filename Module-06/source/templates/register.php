@@ -19,8 +19,8 @@
                     <p class="error-message"><?php echo $data['errors']['prenom']; ?></p>
                 <?php endif; ?>
                 <label for="adresse">Adresse:</label>
-                <input type="text" id="adresseInput" name="adresse" required>
-                <ul id="suggestionsList"></ul>
+                <input type="text" id="adresseInput" name="adresse" list="suggestionsList" required>
+                <datalist id="suggestionsList"></datalist>
                 <?php if (isset($data['errors']['adresse'])) : ?>
                     <p class="error-message"><?php echo $data['errors']['adresse']; ?></p>
                 <?php endif; ?>

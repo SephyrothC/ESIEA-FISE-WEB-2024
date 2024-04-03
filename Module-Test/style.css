@@ -1,0 +1,188 @@
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles pour les éléments de type bloc */
+h1, h2, h3, h4, h5, h6, p, ul, ol, dl, form, table {
+    margin-bottom: 20px;
+}
+
+/* Styles pour les titres */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+h6 {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+/* Styles pour les paragraphes */
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Styles pour les listes */
+
+ul, ol {
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Styles pour les liens */
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styles pour les formulaires */
+
+input, textarea, select {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #444;
+}
+
+/* Styles pour les tableaux */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Styles pour les éléments de type inline */
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+u {
+    text-decoration: underline;
+}
+
+
+/* Styles pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Styles pour l'en-tête */
+header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Styles pour la section principale */
+section {
+    padding: 20px;
+}
+
+.section2{
+    border: red 3px solid;
+}
+
+#section3{
+    border: green 3px solid;
+}
+
+section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+/* Styles pour les boutons */
+.btn {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #444;
+}
+
+/* Styles pour le pied de page */
+footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+

@@ -22,8 +22,8 @@ function afficherSuggestions(suggestions) {
     suggestionsList.innerHTML = ''; // Efface les anciennes suggestions
 
     suggestions.forEach(suggestion => {
-        const li = document.createElement('li');
-        li.textContent = suggestion.properties.label;
-        suggestionsList.appendChild(li);
+        const option = document.createElement('option');
+        option.value = suggestion.properties.label;
+        suggestionsList.appendChild(option);
     });
 }
